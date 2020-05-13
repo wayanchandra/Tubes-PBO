@@ -6,7 +6,7 @@
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
-    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -24,52 +24,48 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Component id="jLabel1" alignment="1" max="32767" attributes="0"/>
-          <Group type="102" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace min="-2" pref="100" max="-2" attributes="0"/>
                       <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="195" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="nama" max="32767" attributes="0"/>
-                                      <Component id="email" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="telpon" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="alamat" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="nik" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="password" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="password" max="32767" attributes="0"/>
+                                  <Component id="nama" max="32767" attributes="0"/>
+                                  <Component id="email" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="telpon" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="alamat" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="txtpass" min="-2" pref="240" max="-2" attributes="0"/>
-                                  <Component id="txtnik" min="-2" pref="240" max="-2" attributes="0"/>
-                                  <Component id="txtalamat" min="-2" pref="240" max="-2" attributes="0"/>
-                                  <Component id="txttelpon" min="-2" pref="240" max="-2" attributes="0"/>
-                                  <Component id="txtemail" min="-2" pref="240" max="-2" attributes="0"/>
-                                  <Component id="txtnama" min="-2" pref="240" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtalamat" alignment="0" min="-2" pref="227" max="-2" attributes="0"/>
+                                          <Component id="txttelpon" min="-2" pref="227" max="-2" attributes="0"/>
+                                          <Component id="txtemail" min="-2" pref="227" max="-2" attributes="0"/>
+                                          <Component id="txtnama" min="-2" pref="227" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="txtpass" min="-2" pref="227" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
-                              <Component id="kembalibutton" min="-2" pref="84" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="tampilkanbutton" min="-2" pref="93" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                              <Component id="kembalibutton" min="-2" pref="93" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
-                      <Component id="tampilkanbutton" min="-2" pref="93" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="editbutton" min="-2" pref="93" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                      <Component id="simpanbutton" min="-2" max="-2" attributes="0"/>
-                  </Group>
               </Group>
-              <EmptySpace pref="195" max="32767" attributes="0"/>
+              <EmptySpace pref="205" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -80,12 +76,7 @@
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
               <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="nik" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="txtnik" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="nama" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtnama" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -110,15 +101,12 @@
                   <Component id="password" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="txtpass" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="editbutton" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
-                  <Component id="simpanbutton" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
                   <Component id="tampilkanbutton" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                  <Component id="kembalibutton" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="kembalibutton" min="-2" pref="42" max="-2" attributes="0"/>
-              <EmptySpace pref="36" max="32767" attributes="0"/>
+              <EmptySpace pref="96" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -134,11 +122,6 @@
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
-    </Component>
-    <Component class="javax.swing.JLabel" name="nik">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="NIK"/>
-      </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="nama">
       <Properties>
@@ -165,35 +148,6 @@
         <Property name="text" type="java.lang.String" value="Password"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JTextField" name="txtnik">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtnikActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtnama">
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtemail">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtemailActionPerformed"/>
-      </Events>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
-      </AuxValues>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txttelpon">
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtalamat">
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtpass">
-    </Component>
-    <Component class="javax.swing.JButton" name="editbutton">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Edit Profile"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="editbuttonActionPerformed"/>
-      </Events>
-    </Component>
     <Component class="javax.swing.JButton" name="kembalibutton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Kembali"/>
@@ -202,11 +156,6 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="kembalibuttonActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="simpanbutton">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Simpan Profile"/>
-      </Properties>
-    </Component>
     <Component class="javax.swing.JButton" name="tampilkanbutton">
       <Properties>
         <Property name="text" type="java.lang.String" value="Tampilkan"/>
@@ -214,6 +163,16 @@
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tampilkanbuttonActionPerformed"/>
       </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtnama">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtemail">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txttelpon">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtalamat">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtpass">
     </Component>
   </SubComponents>
 </Form>
