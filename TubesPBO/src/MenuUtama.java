@@ -13,7 +13,7 @@ public class MenuUtama extends javax.swing.JFrame {
     /**
      * Creates new form MenuUtama
      */
-    suara sound = new suara();
+    //suara sound = new suara();
     public MenuUtama() {
         initComponents();
     }
@@ -66,6 +66,11 @@ public class MenuUtama extends javax.swing.JFrame {
         riwayat.setText("RIWAYAT PEMBELIAN");
 
         jualrumah.setText("JUAL RUMAH");
+        jualrumah.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jualrumahActionPerformed(evt);
+            }
+        });
 
         logoutbutton.setText("LOGOUT");
         logoutbutton.addActionListener(new java.awt.event.ActionListener() {
@@ -131,7 +136,7 @@ public class MenuUtama extends javax.swing.JFrame {
 
     private void listnotarisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listnotarisActionPerformed
         // TODO add your handling code here:
-        sound.sfx("D:\\Netbin\\asiap.wav");
+        //sound.sfx("D:\\Netbin\\asiap.wav");
         Notaris n = new Notaris();
         n.setVisible(true);
         this.setVisible(false);
@@ -146,11 +151,18 @@ public class MenuUtama extends javax.swing.JFrame {
 
     private void logoutbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_logoutbuttonActionPerformed
         // TODO add your handling code here:
-        sound.sfx("D:\\Netbin\\logout.wav");
+        //sound.sfx("D:\\Netbin\\logout.wav");
         MenuLogin n = new MenuLogin();
         n.setVisible(true);
         this.setVisible(false);
     }//GEN-LAST:event_logoutbuttonActionPerformed
+
+    private void jualrumahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jualrumahActionPerformed
+        // TODO add your handling code here:
+        JualRumah n = new JualRumah();
+        n.setVisible(true);
+        this.setVisible(false);
+    }//GEN-LAST:event_jualrumahActionPerformed
 
     /**
      * @param args the command line arguments

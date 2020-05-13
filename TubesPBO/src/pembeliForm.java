@@ -26,7 +26,7 @@ public class pembeliForm extends javax.swing.JFrame {
                 txtnik.requestFocus();
                 kosongkan_form();
             }else{
-                String sql = "INSERT INTO pembeli VALUES ('"+txtnik.getText()+"','"+txtnama.getText()+"','"+txtemail.getText()+"','"+txttelpon.getText()+"','"+txtalamat.getText()+"','"+txtpass.getText()+"')";
+                String sql = "INSERT INTO pembeli VALUES ('"+txtnama.getText()+"','"+txtemail.getText()+"','"+txttelpon.getText()+"','"+txtalamat.getText()+"','"+txtpass.getText()+"')";
                 java.sql.Connection conn = (java.sql.Connection)KoneksiDB.koneksi();
                 java.sql.PreparedStatement pstm = conn.prepareCall(sql);
                 pstm.execute();
@@ -41,7 +41,6 @@ public class pembeliForm extends javax.swing.JFrame {
     }
     
     private void kosongkan_form(){
-        txtnik.setText(null);
         txtnama.setText(null);
         txtemail.setText(null);
         txttelpon.setText(null);

@@ -16,14 +16,6 @@ public class PembeliLogin {
     private static String p_alamat;
     private static String p_password;
     
-    public void setp_nik(String p_nik) {
-        this.p_nik = p_nik;
-    }
-    
-    public static String getp_nik() {
-        return p_nik;
-    }
-    
     public void setp_nama(String p_nama) {
         this.p_nama = p_nama;
     }

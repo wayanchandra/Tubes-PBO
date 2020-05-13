@@ -20,12 +20,12 @@ public class MenuLogin extends javax.swing.JFrame {
     PembeliLogin a = new PembeliLogin();
     
     
-    suara sound = new suara();
+    //suara sound = new suara();
     
     private void CekLogin(){
         try{
             if(txtinemail.getText().equals("") ||txtinpass.getText().equals("")){
-                sound.sfx("D:\\Netbin\\wow.wav");
+                //sound.sfx("D:\\Netbin\\wow.wav");
                 JOptionPane.showMessageDialog(rootPane, "DataTidak Boleh Kosong", "Pesan", JOptionPane.ERROR_MESSAGE);
                 inemail.requestFocus();
                 HapusLayar();
@@ -41,7 +41,7 @@ public class MenuLogin extends javax.swing.JFrame {
                     new MenuUtama().setVisible(true);
                     
                 }else{
-                    sound.sfx("D:\\Netbin\\wow.wav");
+                    //sound.sfx("D:\\Netbin\\wow.wav");
                     JOptionPane.showMessageDialog(rootPane, "UserName dan Password Salah atau Akun Belum Terdaftar", "Pesan",JOptionPane.ERROR_MESSAGE);
                     HapusLayar();
                 }
